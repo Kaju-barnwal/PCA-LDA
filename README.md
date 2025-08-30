@@ -1,9 +1,11 @@
 🍷 Wine Quality Analysis with PCA & LDA
+
 📌 Project Overview
 This project applies Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA) on the Wine Quality dataset (WineQT.csv) to explore dimensionality reduction and classification techniques in R.
 Problem Statement: Wine quality is influenced by multiple physicochemical properties. Understanding how these features contribute to wine classification can help in quality control and production optimization.
 
 Goal:
+
 Reduce dimensionality using PCA and interpret the variance explained by principal components.
 Classify wine quality using LDA (both multiclass and binary Fisher’s LDA).
 Compare accuracy, visualize discriminant functions, and derive insights for real-world applications.
@@ -19,22 +21,24 @@ Target Variable: quality (integer score between 3–8, later treated as a factor
 Id: Unique identifier (removed during modeling)
 
 🛠️ Technologies & Libraries Used
+
 R (base)
 ggplot2 – Visualization (scatter plots, scree plots, projections)
 MASS – LDA modeling
 stats – PCA (prcomp), covariance & eigen decomposition
 
 🔎 Methodology
+
 1. Data Preprocessing
 Removed ID column (not predictive).
 Converted quality to a categorical factor for classification.
 Standardized numerical features using scale().
 
 2. Principal Component Analysis (PCA)
+
 Automatic PCA with prcomp():
 Computed principal components and variance explained.
 Generated scree plot and cumulative variance plots.
-
 Visualized the first two PCs with a scatter plot colored by wine quality.
 
 Manual PCA (Eigen Decomposition):
