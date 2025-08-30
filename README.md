@@ -51,11 +51,13 @@ Verified consistency with automatic PCA results.
 3. Linear Discriminant Analysis (LDA)
 
 Multiclass LDA:
+
 Modeled wine quality across all categories.
 Extracted discriminant coefficients and functions.
 Evaluated classification accuracy with a confusion matrix.
 
 Binary Fisher’s LDA:
+
 Compared two selected quality groups (e.g., quality 5 vs 6).
 Projected data onto discriminant axis.
 Visualized using scatter plots & histograms.
@@ -63,7 +65,9 @@ Visualized using scatter plots & histograms.
 📈 Results & Visualizations
 
 PCA
+
 Variance Explained:
+
 PC1 explained ~28.7% variance, PC2 ~17.1%, PC3 ~14.3%.
 First 5 PCs captured ~80% of total variance.
 
@@ -72,6 +76,7 @@ Scree plots (automatic & manual) showed clear elbow after ~5 PCs.
 Scatter plot of PC1 vs PC2 revealed clustering patterns by quality.
 
 LDA
+
 Multiclass LDA:
 Extracted 5 discriminant functions.
 Accuracy moderately improved over random guessing (~best for mid-quality wines).
@@ -94,6 +99,7 @@ Load dataset: Update the CSV path in the script:
 wine <- read.csv("C:/Users/Lenovo/Downloads/WineQT.csv")
 
 Run scripts step by step:
+
 Data preprocessing
 PCA (automatic & manual)
 LDA (multiclass & binary)
@@ -102,13 +108,7 @@ Scree plots, PCA scatter plots, LDA projections
 Accuracy metrics and confusion matrix
 
 🌍 Real-life Applications
+
 Wine Industry: Identify quality-driving chemical properties for better production and quality assurance.
 Customer Segmentation: Classify consumer preferences based on product attributes.
 General Use Cases: PCA/LDA methods are widely applied in finance, healthcare, image recognition, bioinformatics, and NLP for dimensionality reduction and classification.
-
-🚀 Future Improvements
-Apply cross-validation to validate LDA accuracy.
-Compare performance with other classifiers (Logistic Regression, Random Forest, SVM).
-Use Power BI / Shiny dashboards for interactive visualization.
-
-Explore non-linear dimensionality reduction methods (t-SNE, UMAP)
