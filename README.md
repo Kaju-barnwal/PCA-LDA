@@ -101,9 +101,13 @@ wine <- read.csv("C:/Users/Lenovo/Downloads/WineQT.csv")
 Run scripts step by step:
 
 Data preprocessing
+
 PCA (automatic & manual)
+
 LDA (multiclass & binary)
+
 View outputs:
+
 Scree plots, PCA scatter plots, LDA projections
 Accuracy metrics and confusion matrix
 
