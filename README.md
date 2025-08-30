@@ -1,6 +1,6 @@
-#############################################
+________________________________________________
 🍷 Wine Quality Analysis with PCA & LDA
-#############################################
+________________________________________________
 📌 Project Overview
 
 This project applies Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA) on the Wine Quality dataset (WineQT.csv) to explore dimensionality reduction and classification techniques in R.
